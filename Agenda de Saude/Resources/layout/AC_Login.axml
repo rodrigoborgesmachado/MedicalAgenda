@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lnl_ac_login_tot"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/lnl_ac_login_titApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center|center"
+                android:paddingHorizontal="20dp"
+                android:textSize="26sp"
+                android:text="@string/app_name" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minWidth="100px"
+            android:minHeight="100px"
+            android:orientation="vertical"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity = "top"
+            android:orientation="vertical">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/edt_ac_login_login"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:hint="@string/str_login"
+                    style="@android:style/TextAppearance.Medium"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/edt_ac_login_pass"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:hint="@string/str_password"
+                    style="@android:style/TextAppearance.Medium"
+                    android:password="true"/>
+                </android.support.design.widget.TextInputLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:orientation="vertical">
+                    <Button
+                        android:id="@+id/btn_ac_login_logar"
+                        android:text="@string/str_login"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/mainColorButtons"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="bottom"
+                    android:orientation="vertical">
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/fla_ac_login_fab"
+                        app:backgroundTint="@color/mainColorButtons"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                        android:layout_margin="@dimen/fab_margin"
+                        app:srcCompat="@android:drawable/ic_input_add" />
+                </LinearLayout>
+            
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

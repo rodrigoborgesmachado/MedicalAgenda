@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Agenda de Saude</string>
+    <string name="action_settings">Settings</string>
+    <string name="str_system_name">Medical Agenda</string>
+  <string name="str_username">Geraldo</string>
+
+
+  <!-- Tela de login -->
+    <string name="str_login">Login</string>
+    <string name="str_password">Senha</string>
+    <string name="str_welcome">Welcome!</string>
+
+  <!-- Tela de Cadastro de Usuário-->
+    <string name="str_tit_cadastro_usuario">Cadastro de Usuário</string>
+    <string name="str_tit_login">Login</string>
+    <string name="str_tit_pass">Senha</string>
+    <string name="str_tit_name">Nome</string>
+    <string name="str_tit_cpf">CPF</string>
+    <string name="str_tit_birthday">Data de Nascimento</string>
+    <string name="str_tit_email">E-mail</string>
+    <string name="str_tit_button">Cadastrar</string>
+
+  <!-- Tela de Menu-->
+    <string name="str_tit_menu">Bem vindo</string>
+    <string name="str_enfermidades">Enfermidades</string>
+    <string name="str_exames">Exames</string>
+    <string name="str_medicamentos">Medicamentos</string>
+    <string name="str_tratamentos">Tratamentos</string>
+    <string name="str_vacinas">Vacinas</string>
+  
+  <!-- Tela de Cadastro de Vacinas-->
+  <string name="str_tit_cadastro_vacina">Cadastro de Vacinas</string>
+  <string name="str_nome_vacina">Nome da Vacina:</string>
+  <string name="str_data_aplicacao">Data da Aplicação:</string>
+  <string name="str_qtd_dose">Qtd. Dose à ser Administrada:</string>
+
+  <!-- Tela de Cadastro de Tratamentos-->
+    <string name="str_tit_cadastro_tratamento">Cadastro de Tratamentos</string>
+    <string name="str_tratamento_nome">Nome</string>
+    <string name="str_tratamento_finalizado">Finalizado</string>
+    <string name="str_tratamento_dataInicio">Data início</string>
+    <string name="str_tratamento_dataFinal">Data fim</string>
+    <string name="str_tratamento_periodicidade">Periodicidade</string>
+    <string name="str_tratamento_comentario">Comentário</string>
+  
+  <!-- Tela de Cadastro de Medicamentos-->
+    <string name="str_tit_cadastro_medicamento">Cadastro de Medicamentos</string>  
+    <string name="str_medicamento_nome">Nome</string> 
+    <string name="str_medicamento_medida_tempo">Medida de Tempo</string> 
+    <string name="str_medicamento_formato">Formato</string>
+    <string name="str_medicamento_quantidade">Quantidade</string>
+    <string name="str_medicamento_medida_peso">Medida Peso</string>  
+    <string name="str_medicamento_periodicidade">Periodicidade</string>
+  
+  <!-- Tela de Cadastro de Enfermidades-->
+    <string name="str_tit_cadastro_enfermidade">Cadastro de Enfermidades</string>
+    <string name="str_enfermidade_nome">Nome</string>
+    <string name="str_enfermidade_comentario">Comentário</string>
+    <string name="str_enfermidade_situacao">Situação</string>
+    <string name="str_enfermidade_tipo">Tipo</string>
+
+  <!-- Tela de Cadastro de Exames-->
+    <string name="str_tit_cadastro_exame">Cadastro de Exames</string>
+    <string name="str_exame_nome">Nome</string>
+    <string name="str_exame_comentario">Comentário</string>
+    <string name="str_exame_anexo">Anexo</string>
+    <string name="str_exame_button_anexo">Anexo</string>
+  
+</resources>
